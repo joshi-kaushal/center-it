@@ -12,7 +12,7 @@ will add soon
 
 ---
 
-## Feature
+## Features
 
 - Well, you can center any element in web dev.
 - You can center `horizontally`, `vertically` or `both`.
