@@ -163,6 +163,7 @@ export default function Dropdowns(props) {
   return (
     <>
       <section className="dropdowns">
+        <h2>Select the Axis you want to center:</h2>
         <Select
           options={AXIS_VALUES}
           defaultValue={axis}
@@ -172,24 +173,34 @@ export default function Dropdowns(props) {
 
         {/* Level 02 */}
         {axis.value === "horizontal" ? (
-          <Select
-            options={displayValues}
-            defaultValue={display}
-            onChange={setDisplay}
-            className="dropdown"
-          />
+          <>
+            <h2>Select the type of element</h2>
+            <Select
+              options={displayValues}
+              defaultValue={display}
+              onChange={setDisplay}
+              className="dropdown"
+            />
+          </>
         ) : null}
 
         {/* Level 03 */}
         {display.value === "block" ||
         axis.value === "vertical" ||
         axis.value === "both" ? (
-          <Select
-            options={methodValues}
-            defaultValue={method}
-            onChange={setMethod}
-            className="dropdown"
-          />
+          <>
+            <h2>Select the method</h2>
+            <pre>
+              Prefer <code className="para__code">flexbox</code> or{" "}
+              <code className="para__code">grid</code> over anything else.
+            </pre>
+            <Select
+              options={methodValues}
+              defaultValue={method}
+              onChange={setMethod}
+              className="dropdown"
+            />
+          </>
         ) : null}
       </section>
     </>

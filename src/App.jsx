@@ -1,4 +1,5 @@
 import { CodeProvider } from "./codeContext";
+import Header from "./Header";
 import Dropdowns from "./Dropdowns";
 import Code from "./Code";
 
@@ -7,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <CodeProvider>
-      <h1>Center it!</h1>
+      <Header />
       <main className="container">
         <Dropdowns />
         <Code />

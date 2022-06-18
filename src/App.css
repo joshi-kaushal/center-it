@@ -1,3 +1,11 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --dark-green: #222c2a;
+  --dark-brown: #824936;
+  --off-white: #f3eed9;
+}
+
 *,
 *:before,
 *:after {
@@ -6,7 +14,7 @@
 
 body {
   margin: 0;
-  background-color: #f3eed9;
+  background-color: var(--off-white);
 }
 .container {
   font-family: sans-serif;
@@ -25,8 +33,21 @@ h1 {
   text-align: center;
   margin-bottom: 3rem;
 }
+
+h2 {
+  font-size: 1.25rem;
+}
+
+.para__code {
+  font-family: monospace;
+  background-color: var(--dark-brown);
+  color: var(--white);
+  padding: 0.25em;
+  border-radius: 0.25rem;
+}
+
 .dropdown + .dropdown {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 @media (min-width: 800px) {
@@ -34,8 +55,12 @@ h1 {
     width: 85%;
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
   .dropdowns,
   .code {
-    width: 60%;
+    width: 50%;
   }
 }
