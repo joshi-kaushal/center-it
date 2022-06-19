@@ -16,6 +16,7 @@ body {
   margin: 0;
   background-color: var(--off-white);
 }
+
 .container {
   font-family: sans-serif;
   width: 95%;
@@ -48,6 +49,27 @@ h2 {
 
 .dropdown + .dropdown {
   margin-top: 1.5em;
+}
+
+.copy-button {
+  background-color: var(--dark-brown);
+  border: none;
+  color: var(--off-white);
+  padding: 0.75em 1.25em;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-button:hover,
+.copy-button:focus {
+  background-color: var(--off-white);
+  border: 1px solid var(--dark-brown);
+  color: var(--dark-brown);
 }
 
 @media (min-width: 800px) {
