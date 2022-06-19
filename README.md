@@ -6,9 +6,7 @@ I got tired of all the jokes centering on centering div with CSS. Hence I create
 
 ## Live Demo
 
-```
-will add soon
-```
+### The app is deployed on [Vercel](https://center-it.vercel.app/)!
 
 ---
 
