@@ -1,4 +1,4 @@
-import { CodeProvider } from "./codeContext";
+import { CodeProvider } from "./hooks/codeContext";
 import Header from "./Header";
 import Dropdowns from "./Dropdowns";
 import Code from "./Code";

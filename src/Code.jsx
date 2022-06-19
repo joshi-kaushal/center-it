@@ -1,4 +1,4 @@
-import { useCodeContext } from "./codeContext.jsx";
+import { useCodeContext } from "./hooks/codeContext.jsx";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 const handleCopy = (code) => {

@@ -8,7 +8,7 @@ import {
   METHOD_BOTH,
 } from "./data";
 
-import { useCodeContext } from "./codeContext.jsx";
+import { useCodeContext } from "./hooks/codeContext";
 
 export default function Dropdowns(props) {
   const [axis, setAxis] = useState({});
