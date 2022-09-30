@@ -89,5 +89,5 @@ body:
       label: Code of Conduct
       description: This contribution is made by me and I am not copying/plagiarizing/misusing anyone else's content.
       options:
-        - label: Authority of the work
+        - label: I agree to the above statement
           required: true
