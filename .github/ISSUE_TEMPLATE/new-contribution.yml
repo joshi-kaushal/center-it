@@ -51,7 +51,7 @@ body:
         - advocacy
     validations:
       required: true
-  - type: textarea
+  - type: dropdown
     id: contribution
     attributes:
       label: Select the exact contribution you did
