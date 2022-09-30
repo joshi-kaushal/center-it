@@ -80,10 +80,10 @@ body:
       placeholder: https://reactplay.io/
     validations:
       required: true
- - type: markdown
-  attributes:
-    value: "If you are unable to provide links, attach photos, or any proof so we can understand."
- - type: checkboxes
+  - type: markdown
+    attributes:
+      value: "If you are unable to provide links, attach photos, or any proof so we can understand."
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
