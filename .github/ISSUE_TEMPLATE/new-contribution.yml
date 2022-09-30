@@ -72,6 +72,8 @@ body:
         - thread
         - podcasts
         - blogs
+      validations:
+        required: true
   - type: input
     id: link
     attributes:
